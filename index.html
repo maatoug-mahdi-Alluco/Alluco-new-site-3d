@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#05080d" />
+  <meta name="description" content="ALLUCO — Aluminium, Import, Export & International Logistics." />
+  <title>ALLUCO | Aluminium • Import • Export</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="loader" class="loader" aria-live="polite">
+    <div class="loader__panel">
+      <div class="loader__brand">ALLUCO</div>
+      <div id="loader-status" class="loader__status">INITIALIZING GLOBAL SUPPLY CHAIN...</div>
+      <div class="loader__bar"><span id="loader-progress"></span></div>
+    </div>
+  </div>
+
+  <header class="nav-shell">
+    <a class="brand" href="#home" aria-label="ALLUCO home">
+      <span class="brand__mark">A</span>
+      <span>ALLUCO</span>
+    </a>
+
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav id="nav-links" class="nav-links" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#logistics">Logistics</a>
+      <a href="#aluminium">Aluminium</a>
+      <a href="#technology">Technology</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="site">
+    <canvas id="webgl" aria-hidden="true"></canvas>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <section id="home" class="panel hero" data-scene="0">
+      <div class="eyebrow reveal">TUNISIA • INTERNATIONAL SUPPLY</div>
+      <h1 class="hero__title reveal">
+        <span>ALLUCO</span>
+        <small>ALUMINIUM • IMPORT • EXPORT • INNOVATION</small>
+      </h1>
+      <p class="hero__copy reveal">From global supply to local excellence.</p>
+      <a class="scroll-cue reveal" href="#about">
+        <span>SCROLL TO EXPLORE</span>
+        <i></i>
+      </a>
+    </section>
+
+    <section id="about" class="panel content-panel" data-scene="1">
+      <div class="chapter reveal">01 / GLOBAL SUPPLY</div>
+      <div class="content-card reveal">
+        <p class="kicker">Connected supply chain</p>
+        <h2>Global aluminium supply.<br/>Engineered for continuity.</h2>
+        <p>ALLUCO connects international sourcing, maritime logistics and the Tunisian market through a disciplined, industrial supply-chain approach.</p>
+        <div class="metrics">
+          <div><strong>GLOBAL</strong><span>Supplier network</span></div>
+          <div><strong>MARITIME</strong><span>Import & export flows</span></div>
+          <div><strong>TUNISIA</strong><span>Strategic distribution hub</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="logistics" class="panel content-panel panel-right" data-scene="2">
+      <div class="chapter reveal">02 / MARITIME LOGISTICS</div>
+      <div class="content-card reveal">
+        <p class="kicker">Import • Export • Distribution</p>
+        <h2>International movement.<br/>Local execution.</h2>
+        <p>From containerized cargo to warehouse reception, every step is designed around traceability, reliability and efficient material handling.</p>
+        <div class="feature-grid">
+          <span>Container logistics</span>
+          <span>Maritime routes</span>
+          <span>Warehouse reception</span>
+          <span>Customer distribution</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel content-panel" data-scene="3">
+      <div class="chapter reveal">03 / TUNISIA — OUR HUB</div>
+      <div class="content-card reveal">
+        <p class="kicker">Mediterranean gateway</p>
+        <h2>Positioned between Europe,<br/>Africa and the Mediterranean.</h2>
+        <p>ALLUCO operates from Tunisia as a strategic platform for aluminium distribution and international commercial flows.</p>
+      </div>
+    </section>
+
+    <section class="panel content-panel panel-right" data-scene="4">
+      <div class="chapter reveal">04 / ALLUCO WAREHOUSE</div>
+      <div class="content-card reveal">
+        <p class="kicker">Industrial readiness</p>
+        <h2>Stocked. Structured.<br/>Ready to deliver.</h2>
+        <p>Profiles, pallets and packaged products are organized for efficient storage, preparation and dispatch.</p>
+      </div>
+    </section>
+
+    <section id="aluminium" class="panel content-panel" data-scene="5">
+      <div class="chapter reveal">05 / ALUMINIUM SYSTEMS</div>
+      <div class="content-card reveal">
+        <p class="kicker">Technical aluminium</p>
+        <h2>Profiles designed for<br/>precision and performance.</h2>
+        <p>The product layer is ready to receive real ALLUCO references, 2D drawings, technical characteristics and 3D models.</p>
+        <div class="profile-specs">
+          <div><span>REFERENCE</span><strong>YOUR DATA</strong></div>
+          <div><span>LENGTH</span><strong>YOUR DATA</strong></div>
+          <div><span>WEIGHT</span><strong>YOUR DATA</strong></div>
+          <div><span>SYSTEM</span><strong>YOUR DATA</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="technology" class="panel content-panel panel-right" data-scene="6">
+      <div class="chapter reveal">06 / TECHNOLOGY</div>
+      <div class="content-card reveal">
+        <p class="kicker">Data-driven supply</p>
+        <h2>Predict. Anticipate.<br/>Secure supply.</h2>
+        <p>The platform is designed to evolve toward stock visibility, forecasting and AI-assisted supply planning without publishing confidential business data.</p>
+        <div class="data-bars" aria-hidden="true">
+          <span style="--w: 84%"></span>
+          <span style="--w: 62%"></span>
+          <span style="--w: 73%"></span>
+          <span style="--w: 48%"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel contact-panel" data-scene="7">
+      <div class="contact-inner reveal">
+        <p class="kicker">ALLUCO • TUNISIA</p>
+        <h2>LET'S BUILD THE FUTURE<br/>OF ALUMINIUM.</h2>
+        <p class="contact-note">Replace the placeholders below with the official ALLUCO contact details.</p>
+        <div class="contact-grid">
+          <div><span>EMAIL</span><strong>[ALLUCO_EMAIL]</strong></div>
+          <div><span>PHONE</span><strong>[ALLUCO_PHONE]</strong></div>
+          <div><span>WHATSAPP</span><strong>[ALLUCO_WHATSAPP]</strong></div>
+          <div><span>ADDRESS</span><strong>[ALLUCO_ADDRESS]</strong></div>
+        </div>
+        <a class="primary-button" href="mailto:contact@example.com">CONTACT ALLUCO</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>ALLUCO</strong>
+      <span>Aluminium • Import • Export • Innovation</span>
+    </div>
+    <small>© <span id="year"></span> ALLUCO. All rights reserved.</small>
+  </footer>
+
+  <div id="webgl-fallback" class="fallback" hidden>
+    <div>
+      <strong>ALLUCO</strong>
+      <p>Your browser cannot display the 3D experience. The website content remains available.</p>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
